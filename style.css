@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,500;6..96,600;6..96,900&family=Roboto:ital,wght@0,300;0,900;1,500&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: blue;
+
+    width: 100w;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+svg {
+    width:140px;
+    fill: white;   
+}
+
+.header {
+background-color: black;
+color: white;
+flex-grow:1;
+
+display: flex;
+justify-content: space-around;
+
+align-items: center;
+}
+
+.header a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500px;
+    color: white;
+}
+
+header a:hover{
+    color:#1ed760
+}
+
+.main {
+    background-color: #1d75de;
+    color: white;
+    flex-grow:10;
+
+    padding: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    min-height: 200px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.btn {
+    font-size: 16px;
+    color: white;
+    font-weight: 700;
+    padding: 15px 40px;
+    border-radius: 40px;
+    border: 0px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.btn:hover {
+    box-shadow: 0px 5px 5px rgba(0,0,0, 0.2);
+}
+
+.btn-black {
+    background-color: black;
+}
+
+.btn-primary {
+    background-color: #1d75de;
+    border: 2px solid white;
+}
+.footer {
+    background-color: white;
+    flex-grow: 4;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
